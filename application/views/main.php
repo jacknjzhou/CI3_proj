@@ -69,7 +69,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<div class="page-header-inner">
 		<!-- BEGIN LOGO -->
 		<div class="page-logo">
-			<a href="index.html">
+			<a href="javascript:;">
 			<img src=<?=base_url()."static/assets/admin/layout/img/logo.png"?> alt="logo" class="logo-default"/>
 			</a>
 			<div class="menu-toggler sidebar-toggler hide">
@@ -226,7 +226,7 @@ License: You must have a valid license purchased only from themeforest(the above
 								<li>
 									<a href="inbox.html?a=view">
 									<span class="photo">
-									<img src="../../assets/admin/layout3/img/avatar3.jpg" class="img-circle" alt="">
+									<img src=<?=base_url()."static/assets/admin/layout3/img/avatar3.jpg"?> class="img-circle" alt="">
 									</span>
 									<span class="subject">
 									<span class="from">
@@ -385,7 +385,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
 				<li class="dropdown dropdown-user">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-					<img alt="" class="img-circle" src=<?=base_url();?>."static/assets/admin/layout/img/avatar3_small.jpg"/>
+					<img alt="" class="img-circle" src=<?=base_url()."static/assets/admin/layout/img/avatar3_small.jpg"?> />
 					<span class="username username-hide-on-mobile">
 					Nick </span>
 					<i class="fa fa-angle-down"></i>
@@ -462,79 +462,64 @@ License: You must have a valid license purchased only from themeforest(the above
 					<!-- END SIDEBAR TOGGLER BUTTON -->
 				</li>
 				<!-- DOC: To remove the search box from the sidebar you just need to completely remove the below "sidebar-search-wrapper" LI element -->
-				<li class="sidebar-search-wrapper">
+<!-- 				<li class="sidebar-search-wrapper"> -->
 					<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
 					<!-- DOC: Apply "sidebar-search-bordered" class the below search form to have bordered search box -->
 					<!-- DOC: Apply "sidebar-search-bordered sidebar-search-solid" class the below search form to have bordered & solid search box -->
-					<form class="sidebar-search " action="extra_search.html" method="POST">
-						<a href="javascript:;" class="remove">
-						<i class="icon-close"></i>
-						</a>
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search...">
-							<span class="input-group-btn">
-							<a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a>
-							</span>
-						</div>
-					</form>
+<!-- 					<form class="sidebar-search " action="extra_search.html" method="POST"> -->
+<!-- 						<a href="javascript:;" class="remove"> -->
+<!-- 						<i class="icon-close"></i> -->
+<!-- 						</a> -->
+<!-- 						<div class="input-group"> -->
+<!-- 							<input type="text" class="form-control" placeholder="Search..."> -->
+<!-- 							<span class="input-group-btn"> -->
+<!-- 							<a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a> -->
+<!-- 							</span> -->
+<!-- 						</div> -->
+<!-- 					</form> -->
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
-				</li>
+<!-- 				</li> -->
 				<li class="start active open">
 					<a href="javascript:;">
 					<i class="icon-home"></i>
-					<span class="title">Dashboard</span>
+					<span class="title">Dashboard(资源)</span>
 					<span class="selected"></span>
 					<span class="arrow open"></span>
 					</a>
 					<ul class="sub-menu">
 						<li class="active">
-							<a href="index.html">
+							<a href="javascript:;">
 							<i class="icon-bar-chart"></i>
-							Default Dashboard</a>
-						</li>
-						<li>
-							<a href="index_2.html">
-							<i class="icon-bulb"></i>
-							New Dashboard #1</a>
-						</li>
-						<li>
-							<a href="index_3.html">
-							<i class="icon-graph"></i>
-							New Dashboard #2</a>
+							Dashboard(首页--概览)</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a href="javascript:;">
 					<i class="icon-basket"></i>
-					<span class="title">eCommerce</span>
+					<span class="title">资源投放</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="ecommerce_index.html">
-							<i class="icon-home"></i>
-							Dashboard</a>
-						</li>
-						<li>
-							<a href="ecommerce_orders.html">
+							<a href="javascript:;">
 							<i class="icon-basket"></i>
-							Orders</a>
+							设备需求单</a>
 						</li>
 						<li>
-							<a href="ecommerce_orders_view.html">
+							<a href="javascript:;">
 							<i class="icon-tag"></i>
-							Order View</a>
+							需求单详情</a>
 						</li>
 						<li>
-							<a href="ecommerce_products.html">
+							<a href="javascript:;">
 							<i class="icon-handbag"></i>
-							Products</a>
+							产品详情</a>
 						</li>
 						<li>
-							<a href="ecommerce_products_edit.html">
+							<a href="javascript:;">
 							<i class="icon-pencil"></i>
-							Product Edit</a>
+							编辑产品</a>
 						</li>
 					</ul>
 				</li>
