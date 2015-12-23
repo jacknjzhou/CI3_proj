@@ -95,7 +95,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<ul class="dropdown-menu">
 						<li class="external">
 							<h3><span class="bold">12 pending</span> notifications</h3>
-							<a href="extra_profile.html">view all</a>
+							<a href=javascript:;>view all</a>
 						</li>
 						<li>
 							<ul class="dropdown-menu-list scroller" style="height: 250px;" data-handle-color="#637283">
@@ -290,7 +290,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					</a>
 					<ul class="sub-menu">
 						<li class="active">
-							<a href="javascript:;">
+							<a href="/index.php/main/index">
 							<i class="icon-bar-chart"></i>
 							概览</a>
 						</li>
@@ -435,7 +435,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="javascript:;">
+							<a href="/index.php/demo/index">
 							General Portlets</a>
 						</li>
 						
