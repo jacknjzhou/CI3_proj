@@ -482,7 +482,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				<li class="start active open">
 					<a href="javascript:;">
 					<i class="icon-home"></i>
-					<span class="title">Dashboard(��Դ)</span>
+					<span class="title">Dashboard(资源)</span>
 					<span class="selected"></span>
 					<span class="arrow open"></span>
 					</a>
@@ -490,128 +490,128 @@ License: You must have a valid license purchased only from themeforest(the above
 						<li class="active">
 							<a href="javascript:;">
 							<i class="icon-bar-chart"></i>
-							Dashboard(��ҳ--����)</a>
+							Dashboard(首页--概览)</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a href="javascript:;">
 					<i class="icon-basket"></i>
-					<span class="title">��ԴͶ��</span>
+					<span class="title">资源投放</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
 							<a href="javascript:;">
 							<i class="icon-basket"></i>
-							�豸����</a>
+							设备需求单</a>
 						</li>
 						<li>
 							<a href="javascript:;">
 							<i class="icon-tag"></i>
-							��������</a>
+							需求单详情</a>
 						</li>
 						<li>
 							<a href="javascript:;">
 							<i class="icon-handbag"></i>
-							��Ʒ����</a>
+							产品详情</a>
 						</li>
 						<li>
 							<a href="javascript:;">
 							<i class="icon-pencil"></i>
-							�༭��Ʒ</a>
+							编辑产品</a>
 						</li>
 					</ul>
 				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-rocket"></i>
-					<span class="title">Page Layouts</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="layout_horizontal_sidebar_menu.html">
-							Horizontal & Sidebar Menu</a>
-						</li>
-						<li>
-							<a href="index_horizontal_menu.html">
-							Dashboard & Mega Menu</a>
-						</li>
-						<li>
-							<a href="layout_horizontal_menu1.html">
-							Horizontal Mega Menu 1</a>
-						</li>
-						<li>
-							<a href="layout_horizontal_menu2.html">
-							Horizontal Mega Menu 2</a>
-						</li>
-						<li>
-							<a href="layout_fontawesome_icons.html">
-							<span class="badge badge-roundless badge-danger">new</span>Layout with Fontawesome Icons</a>
-						</li>
-						<li>
-							<a href="layout_glyphicons.html">
-							Layout with Glyphicon</a>
-						</li>
-						<li>
-							<a href="layout_full_height_portlet.html">
-							<span class="badge badge-roundless badge-success">new</span>Full Height Portlet</a>
-						</li>
-						<li>
-							<a href="layout_full_height_content.html">
-							<span class="badge badge-roundless badge-warning">new</span>Full Height Content</a>
-						</li>
-						<li>
-							<a href="layout_search_on_header1.html">
-							Search Box On Header 1</a>
-						</li>
-						<li>
-							<a href="layout_search_on_header2.html">
-							Search Box On Header 2</a>
-						</li>
-						<li>
-							<a href="layout_sidebar_search_option1.html">
-							Sidebar Search Option 1</a>
-						</li>
-						<li>
-							<a href="layout_sidebar_search_option2.html">
-							Sidebar Search Option 2</a>
-						</li>
-						<li>
-							<a href="layout_sidebar_reversed.html">
-							<span class="badge badge-roundless badge-warning">new</span>Right Sidebar Page</a>
-						</li>
-						<li>
-							<a href="layout_sidebar_fixed.html">
-							Sidebar Fixed Page</a>
-						</li>
-						<li>
-							<a href="layout_sidebar_closed.html">
-							Sidebar Closed Page</a>
-						</li>
-						<li>
-							<a href="layout_ajax.html">
-							Content Loading via Ajax</a>
-						</li>
-						<li>
-							<a href="layout_disabled_menu.html">
-							Disabled Menu Links</a>
-						</li>
-						<li>
-							<a href="layout_blank_page.html">
-							Blank Page</a>
-						</li>
-						<li>
-							<a href="layout_boxed_page.html">
-							Boxed Page</a>
-						</li>
-						<li>
-							<a href="layout_language_bar.html">
-							Language Switch Bar</a>
-						</li>
-					</ul>
-				</li>
+<!-- 				<li> -->
+<!-- 					<a href="javascript:;"> -->
+<!-- 					<i class="icon-rocket"></i> -->
+<!-- 					<span class="title">Page Layouts</span> -->
+<!-- 					<span class="arrow "></span> -->
+<!-- 					</a> -->
+<!-- 					<ul class="sub-menu"> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_horizontal_sidebar_menu.html"> -->
+<!-- 							Horizontal & Sidebar Menu</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="index_horizontal_menu.html"> -->
+<!-- 							Dashboard & Mega Menu</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_horizontal_menu1.html"> -->
+<!-- 							Horizontal Mega Menu 1</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_horizontal_menu2.html"> -->
+<!-- 							Horizontal Mega Menu 2</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_fontawesome_icons.html"> -->
+<!-- 							<span class="badge badge-roundless badge-danger">new</span>Layout with Fontawesome Icons</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_glyphicons.html"> -->
+<!-- 							Layout with Glyphicon</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_full_height_portlet.html"> -->
+<!-- 							<span class="badge badge-roundless badge-success">new</span>Full Height Portlet</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_full_height_content.html"> -->
+<!-- 							<span class="badge badge-roundless badge-warning">new</span>Full Height Content</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_search_on_header1.html"> -->
+<!-- 							Search Box On Header 1</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_search_on_header2.html"> -->
+<!-- 							Search Box On Header 2</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_sidebar_search_option1.html"> -->
+<!-- 							Sidebar Search Option 1</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_sidebar_search_option2.html"> -->
+<!-- 							Sidebar Search Option 2</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_sidebar_reversed.html"> -->
+<!-- 							<span class="badge badge-roundless badge-warning">new</span>Right Sidebar Page</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_sidebar_fixed.html"> -->
+<!-- 							Sidebar Fixed Page</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_sidebar_closed.html"> -->
+<!-- 							Sidebar Closed Page</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_ajax.html"> -->
+<!-- 							Content Loading via Ajax</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_disabled_menu.html"> -->
+<!-- 							Disabled Menu Links</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_blank_page.html"> -->
+<!-- 							Blank Page</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_boxed_page.html"> -->
+<!-- 							Boxed Page</a> -->
+<!-- 						</li> -->
+<!-- 						<li> -->
+<!-- 							<a href="layout_language_bar.html"> -->
+<!-- 							Language Switch Bar</a> -->
+<!-- 						</li> -->
+<!-- 					</ul> -->
+<!-- 				</li> -->
 				<li>
 					<a href="javascript:;">
 					<i class="icon-diamond"></i>
@@ -752,7 +752,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</li>
 				<!-- END ANGULARJS LINK -->
 				<li class="heading">
-					<h3 class="uppercase">Features</h3>
+					<h3 class="uppercase">工具</h3>
 				</li>
 				<li>
 					<a href="javascript:;">
@@ -1104,40 +1104,66 @@ License: You must have a valid license purchased only from themeforest(the above
 					</ul>
 				</li>
 				<li class="heading">
-					<h3 class="uppercase">更多</h3>
+					<h3 class="uppercase">More</h3>
 				</li>
 				<li>
 					<a href="javascript:;">
 					<i class="icon-logout"></i>
-					<span class="title">实用工具</span>
+					<span class="title">Quick Sidebar</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="javascript:;">
-							快速链接</a>
+							<a href="quick_sidebar_push_content.html">
+							Push Content</a>
 						</li>
 						<li>
-							<a href="javascript:;">
-							Ping检查工具</a>
+							<a href="quick_sidebar_over_content.html">
+							Over Content</a>
 						</li>
 						<li>
-							<a href="javascript:;">
-							SSH工具</a>
+							<a href="quick_sidebar_over_content_transparent.html">
+							Over Content & Transparent</a>
+						</li>
+						<li>
+							<a href="quick_sidebar_on_boxed_layout.html">
+							Boxed Layout</a>
 						</li>
 					</ul>
 				</li>
-				
-				<li class="last ">
+				<li>
 					<a href="javascript:;">
-					<i class="icon-pointer"></i>
-					<span class="title">网页地图</span>
+					<i class="icon-envelope-open"></i>
+					<span class="title">Email Templates</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="javascript:;">
-							Maps</a>
+							<a href="email_newsletter.html">
+							Responsive Newsletter<br>
+							Email Template</a>
+						</li>
+						<li>
+							<a href="email_system.html">
+							Responsive System<br>
+							Email Template</a>
+						</li>
+					</ul>
+				</li>
+				<li class="last ">
+					<a href="javascript:;">
+					<i class="icon-pointer"></i>
+					<span class="title">Maps</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="maps_google.html">
+							Google Maps</a>
+						</li>
+						<li>
+							<a href="maps_vector.html">
+							Vector Maps</a>
 						</li>
 					</ul>
 				</li>
@@ -1490,7 +1516,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="portlet paddingless">
 						<div class="portlet-title line">
 							<div class="caption">
-								<i class="fa fa-bell-o"></i>Feeds
+								<i class="fa fa-bell-o"></i>新闻概览
 							</div>
 							<div class="tools">
 								<a href="" class="collapse">
@@ -1509,15 +1535,15 @@ License: You must have a valid license purchased only from themeforest(the above
 								<ul class="nav nav-tabs">
 									<li class="active">
 										<a href="#tab_1_1" data-toggle="tab">
-										System </a>
+										需求相关 </a>
 									</li>
 									<li>
 										<a href="#tab_1_2" data-toggle="tab">
-										Activities </a>
+										任务相关 </a>
 									</li>
 									<li>
 										<a href="#tab_1_3" data-toggle="tab">
-										Recent Users </a>
+										用户相关 </a>
 									</li>
 								</ul>
 								<div class="tab-content">
@@ -2224,7 +2250,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 												</div>
 												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
+													<img alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar.png"?> class="img-responsive"/>
 													<div class="details">
 														<div>
 															<a href="#">
@@ -2240,7 +2266,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 											<div class="row">
 												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
+													<img alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar.png"?> class="img-responsive"/>
 													<div class="details">
 														<div>
 															<a href="#">
@@ -2300,7 +2326,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 											<div class="row">
 												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
+													<img alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar.png"?> class="img-responsive"/>
 													<div class="details">
 														<div>
 															<a href="#">
@@ -2314,7 +2340,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 												</div>
 												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
+													<img alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar.png"?> class="img-responsive"/>
 													<div class="details">
 														<div>
 															<a href="#">
@@ -2342,7 +2368,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="portlet box green-haze tasks-widget">
 						<div class="portlet-title">
 							<div class="caption">
-								<i class="fa fa-check"></i>Tasks
+								<i class="fa fa-check"></i>任务列表
 							</div>
 							<div class="tools">
 								<a href="#portlet-config" data-toggle="modal" class="config">
@@ -2703,7 +2729,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							</div>
 							<div class="task-footer">
 								<div class="btn-arrow-link pull-right">
-									<a href="#">See All Records</a>
+									<a href="#">查看所有记录</a>
 									<i class="icon-arrow-right"></i>
 								</div>
 							</div>
@@ -2718,11 +2744,11 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="portlet box purple-wisteria">
 						<div class="portlet-title">
 							<div class="caption">
-								<i class="fa fa-calendar"></i>访问数据
+								<i class="fa fa-calendar"></i>访问量
 							</div>
 							<div class="actions">
 								<a href="javascript:;" class="btn btn-sm btn-default easy-pie-chart-reload">
-								<i class="fa fa-repeat"></i> Reload </a>
+								<i class="fa fa-repeat"></i> 重新载入 </a>
 							</div>
 						</div>
 						<div class="portlet-body">
@@ -2735,7 +2761,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											%
 										</div>
 										<a class="title" href="#">
-										Transactions <i class="icon-arrow-right"></i>
+										交易量 <i class="icon-arrow-right"></i>
 										</a>
 									</div>
 								</div>
@@ -2749,7 +2775,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											%
 										</div>
 										<a class="title" href="#">
-										New Visits <i class="icon-arrow-right"></i>
+										访客量 <i class="icon-arrow-right"></i>
 										</a>
 									</div>
 								</div>
@@ -2763,7 +2789,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											%
 										</div>
 										<a class="title" href="#">
-										Bounce <i class="icon-arrow-right"></i>
+										反弹比例 <i class="icon-arrow-right"></i>
 										</a>
 									</div>
 								</div>
@@ -2775,7 +2801,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="portlet box red-sunglo">
 						<div class="portlet-title">
 							<div class="caption">
-								<i class="fa fa-calendar"></i>服务状态
+								<i class="fa fa-calendar"></i>服务状态
 							</div>
 							<div class="tools">
 								<a href="" class="collapse">
@@ -2794,7 +2820,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									<div class="sparkline-chart">
 										<div class="number" id="sparkline_bar"></div>
 										<a class="title" href="#">
-										Network <i class="icon-arrow-right"></i>
+										网络 <i class="icon-arrow-right"></i>
 										</a>
 									</div>
 								</div>
@@ -2804,7 +2830,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									<div class="sparkline-chart">
 										<div class="number" id="sparkline_bar2"></div>
 										<a class="title" href="#">
-										CPU Load <i class="icon-arrow-right"></i>
+										CPU负载 <i class="icon-arrow-right"></i>
 										</a>
 									</div>
 								</div>
@@ -2814,7 +2840,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									<div class="sparkline-chart">
 										<div class="number" id="sparkline_line"></div>
 										<a class="title" href="#">
-										Load Rate <i class="icon-arrow-right"></i>
+										负载率 <i class="icon-arrow-right"></i>
 										</a>
 									</div>
 								</div>
@@ -2844,7 +2870,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						More<i class="fa fa-angle-down"></i>
+						更多<i class="fa fa-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu pull-right" role="menu">
 							<li>
@@ -2877,7 +2903,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									<div class="media-status">
 										<span class="badge badge-success">8</span>
 									</div>
-									<img class="media-object" src="../../assets/admin/layout/img/avatar3.jpg" alt="...">
+									<img class="media-object" src=<?=base_url()."static/assets/admin/layout/img/avatar3.jpg"?> alt="...">
 									<div class="media-body">
 										<h4 class="media-heading">Bob Nilson</h4>
 										<div class="media-heading-sub">
@@ -2886,7 +2912,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									</div>
 								</li>
 								<li class="media">
-									<img class="media-object" src="../../assets/admin/layout/img/avatar1.jpg" alt="...">
+									<img class="media-object" src=<?=base_url()."static/assets/admin/layout/img/avatar1.jpg"?> alt="...">
 									<div class="media-body">
 										<h4 class="media-heading">Nick Larson</h4>
 										<div class="media-heading-sub">
