@@ -757,7 +757,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				<li>
 					<a href="javascript:;">
 					<i class="icon-settings"></i>
-					<span class="title">Form Stuff</span>
+					<span class="title">工具</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
@@ -777,26 +777,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							<a href="form_editable.html">
 							<span class="badge badge-roundless badge-warning">new</span>Form X-editable</a>
 						</li>
-						<li>
-							<a href="form_wizard.html">
-							Form Wizard</a>
-						</li>
-						<li>
-							<a href="form_validation.html">
-							Form Validation</a>
-						</li>
-						<li>
-							<a href="form_image_crop.html">
-							<span class="badge badge-roundless badge-danger">new</span>Image Cropping</a>
-						</li>
-						<li>
-							<a href="form_fileupload.html">
-							Multiple File Upload</a>
-						</li>
-						<li>
-							<a href="form_dropzone.html">
-							Dropzone File Upload</a>
-						</li>
+						
 					</ul>
 				</li>
 				<li>
@@ -807,28 +788,12 @@ License: You must have a valid license purchased only from themeforest(the above
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="table_basic.html">
+							<a href="javascript:;">
 							Basic Datatables</a>
 						</li>
 						<li>
-							<a href="table_responsive.html">
+							<a href="javascript:;">
 							Responsive Datatables</a>
-						</li>
-						<li>
-							<a href="table_managed.html">
-							Managed Datatables</a>
-						</li>
-						<li>
-							<a href="table_editable.html">
-							Editable Datatables</a>
-						</li>
-						<li>
-							<a href="table_advanced.html">
-							Advanced Datatables</a>
-						</li>
-						<li>
-							<a href="table_ajax.html">
-							Ajax Datatables</a>
 						</li>
 					</ul>
 				</li>
@@ -840,177 +805,62 @@ License: You must have a valid license purchased only from themeforest(the above
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="portlet_general.html">
+							<a href="javascript:;">
 							General Portlets</a>
 						</li>
+						
 						<li>
-							<a href="portlet_general2.html">
-							<span class="badge badge-roundless badge-danger">new</span>New Portlets #1</a>
-						</li>
-						<li>
-							<a href="portlet_general3.html">
+							<a href="javascript:;">
 							<span class="badge badge-roundless badge-danger">new</span>New Portlets #2</a>
 						</li>
-						<li>
-							<a href="portlet_ajax.html">
-							Ajax Portlets</a>
-						</li>
-						<li>
-							<a href="portlet_draggable.html">
-							Draggable Portlets</a>
-						</li>
+						
 					</ul>
 				</li>
 				<li>
 					<a href="javascript:;">
 					<i class="icon-bar-chart"></i>
-					<span class="title">Charts</span>
+					<span class="title">相关图表</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="charts_amcharts.html">
-							amChart</a>
-						</li>
-						<li>
-							<a href="charts_flotcharts.html">
-							Flotchart</a>
+							<a href="javascript:;">
+							图表</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a href="javascript:;">
 					<i class="icon-docs"></i>
-					<span class="title">Pages</span>
+					<span class="title">详情相关</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="page_timeline.html">
+							<a href="javascript:;">
 								<i class="icon-paper-plane"></i>
 								<span class="badge badge-warning">2</span>
-								New Timeline
+								需求相关
 							</a>
 						</li>
 						<li>
-							<a href="page_todo.html">
-							<i class="icon-check"></i>
-							Todo</a>
-						</li>
-						<li>
-							<a href="inbox.html">
+							<a href="javascript:;">
 							<i class="icon-envelope"></i>
-							<span class="badge badge-danger">4</span>Inbox</a>
+							<span class="badge badge-danger">4</span>任务相关</a>
 						</li>
 						<li>
-							<a href="extra_profile.html">
-							<i class="icon-user-following"></i>
-							<span class="badge badge-success badge-roundless">new</span>New User Profile</a>
-						</li>
-						<li>
-							<a href="extra_profile_old.html">
-							<i class="icon-user"></i>
-							Old User Profile</a>
-						</li>
-						<li>
-							<a href="extra_faq.html">
-							<i class="icon-question"></i>
-							FAQ</a>
-						</li>
-						<li>
-							<a href="page_calendar.html">
+							<a href="javascript:;">
 							<i class="icon-calendar"></i>
-							<span class="badge badge-danger">14</span>Calendar</a>
+							<span class="badge badge-danger">14</span>人员相关</a>
 						</li>
-						<li>
-							<a href="page_timeline_old.html">
-							<i class="icon-clock"></i>
-							<span class="badge badge-info">4</span>Old Timeline</a>
-						</li>
-						<li>
-							<a href="page_coming_soon.html">
-							<i class="icon-flag"></i>
-							Coming Soon</a>
-						</li>
-						<li>
-							<a href="page_blog.html">
-							<i class="icon-speech"></i>
-							Blog</a>
-						</li>
-						<li>
-							<a href="page_blog_item.html">
-							<i class="icon-link"></i>
-							Blog Post</a>
-						</li>
-						<li>
-							<a href="page_news.html">
-							<i class="icon-eye"></i>
-							<span class="badge badge-success">9</span>News</a>
-						</li>
-						<li>
-							<a href="page_news_item.html">
-							<i class="icon-bell"></i>
-							News View</a>
-						</li>
+						
 					</ul>
 				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-present"></i>
-					<span class="title">Extra</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="page_about.html">
-							About Us</a>
-						</li>
-						<li>
-							<a href="page_contact.html">
-							Contact Us</a>
-						</li>
-						<li>
-							<a href="extra_search.html">
-							Search Results</a>
-						</li>
-						<li>
-							<a href="extra_invoice.html">
-							Invoice</a>
-						</li>
-						<li>
-							<a href="page_portfolio.html">
-							Portfolio</a>
-						</li>
-						<li>
-							<a href="extra_pricing_table.html">
-							Pricing Tables</a>
-						</li>
-						<li>
-							<a href="extra_404_option1.html">
-							404 Page Option 1</a>
-						</li>
-						<li>
-							<a href="extra_404_option2.html">
-							404 Page Option 2</a>
-						</li>
-						<li>
-							<a href="extra_404_option3.html">
-							404 Page Option 3</a>
-						</li>
-						<li>
-							<a href="extra_500_option1.html">
-							500 Page Option 1</a>
-						</li>
-						<li>
-							<a href="extra_500_option2.html">
-							500 Page Option 2</a>
-						</li>
-					</ul>
-				</li>
+				
 				<li>
 					<a href="javascript:;">
 					<i class="icon-folder"></i>
-					<span class="title">Multi Level Menu</span>
+					<span class="title">多层级菜单演示</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
@@ -1047,123 +897,37 @@ License: You must have a valid license purchased only from themeforest(the above
 								</li>
 							</ul>
 						</li>
-						<li>
-							<a href="javascript:;">
-							<i class="icon-globe"></i> Item 2 <span class="arrow"></span>
-							</a>
-							<ul class="sub-menu">
-								<li>
-									<a href="#"><i class="icon-tag"></i> Sample Link 1</a>
-								</li>
-								<li>
-									<a href="#"><i class="icon-pencil"></i> Sample Link 1</a>
-								</li>
-								<li>
-									<a href="#"><i class="icon-graph"></i> Sample Link 1</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">
-							<i class="icon-bar-chart"></i>
-							Item 3 </a>
-						</li>
+						
 					</ul>
 				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-user"></i>
-					<span class="title">Login Options</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="login.html">
-							Login Form 1</a>
-						</li>
-						<li>
-							<a href="login_2.html">
-							Login Form 2</a>
-						</li>
-						<li>
-							<a href="login_3.html">
-							Login Form 3</a>
-						</li>
-						<li>
-							<a href="login_soft.html">
-							Login Form 4</a>
-						</li>
-						<li>
-							<a href="extra_lock.html">
-							Lock Screen 1</a>
-						</li>
-						<li>
-							<a href="extra_lock2.html">
-							Lock Screen 2</a>
-						</li>
-					</ul>
-				</li>
+				
 				<li class="heading">
-					<h3 class="uppercase">More</h3>
+					<h3 class="uppercase">更多</h3>
 				</li>
 				<li>
 					<a href="javascript:;">
 					<i class="icon-logout"></i>
-					<span class="title">Quick Sidebar</span>
+					<span class="title">其它</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="quick_sidebar_push_content.html">
-							Push Content</a>
-						</li>
-						<li>
-							<a href="quick_sidebar_over_content.html">
-							Over Content</a>
-						</li>
-						<li>
-							<a href="quick_sidebar_over_content_transparent.html">
-							Over Content & Transparent</a>
-						</li>
-						<li>
-							<a href="quick_sidebar_on_boxed_layout.html">
-							Boxed Layout</a>
+							<a href="javascript:;">
+							XXOO</a>
 						</li>
 					</ul>
 				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-envelope-open"></i>
-					<span class="title">Email Templates</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="email_newsletter.html">
-							Responsive Newsletter<br>
-							Email Template</a>
-						</li>
-						<li>
-							<a href="email_system.html">
-							Responsive System<br>
-							Email Template</a>
-						</li>
-					</ul>
-				</li>
+				
 				<li class="last ">
 					<a href="javascript:;">
 					<i class="icon-pointer"></i>
-					<span class="title">Maps</span>
+					<span class="title">网站地图</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="maps_google.html">
-							Google Maps</a>
-						</li>
-						<li>
-							<a href="maps_vector.html">
-							Vector Maps</a>
+							<a href="javascript:;">
+							Maps</a>
 						</li>
 					</ul>
 				</li>
@@ -1418,7 +1182,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						</div>
 						<div class="portlet-body">
 							<div id="site_statistics_loading">
-								<img src="../../assets/admin/layout/img/loading.gif" alt="loading"/>
+								<img src=<?=base_url()."static/assets/admin/layout/img/loading.gif"?> alt="loading"/>
 							</div>
 							<div id="site_statistics_content" class="display-none">
 								<div id="site_statistics" class="chart">
@@ -1472,7 +1236,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						</div>
 						<div class="portlet-body">
 							<div id="site_activities_loading">
-								<img src="../../assets/admin/layout/img/loading.gif" alt="loading"/>
+								<img src=<?=base_url()."static/assets/admin/layout/img/loading.gif"?> alt="loading"/>
 							</div>
 							<div id="site_activities_content" class="display-none">
 								<div id="site_activities" style="height: 228px;">
@@ -1518,19 +1282,19 @@ License: You must have a valid license purchased only from themeforest(the above
 							<div class="caption">
 								<i class="fa fa-bell-o"></i>新闻概览
 							</div>
-							<div class="tools">
-								<a href="" class="collapse">
-								</a>
-								<a href="#portlet-config" data-toggle="modal" class="config">
-								</a>
-								<a href="" class="reload">
-								</a>
-								<a href="" class="remove">
-								</a>
-							</div>
+<!-- 							<div class="tools"> -->
+<!-- 								<a href="" class="collapse"> -->
+<!-- 								</a> -->
+<!-- 								<a href="#portlet-config" data-toggle="modal" class="config"> -->
+<!-- 								</a> -->
+<!-- 								<a href="" class="reload"> -->
+<!-- 								</a> -->
+<!-- 								<a href="" class="remove"> -->
+<!-- 								</a> -->
+<!-- 							</div> -->
 						</div>
 						<div class="portlet-body">
-							<!--BEGIN TABS-->
+							<!--BEGIN TABS(采用的tab布局方式进行切换)-->
 							<div class="tabbable tabbable-custom">
 								<ul class="nav nav-tabs">
 									<li class="active">
@@ -1574,50 +1338,6 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 												</li>
 												<li>
-													<a href="#">
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-success">
-																	<i class="fa fa-bell-o"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New version v1.4 just lunched!
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 20 mins
-														</div>
-													</div>
-													</a>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-danger">
-																	<i class="fa fa-bolt"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 Database server #12 overloaded. Please fix the issue.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 24 mins
-														</div>
-													</div>
-												</li>
-												<li>
 													<div class="col1">
 														<div class="cont">
 															<div class="cont-col1">
@@ -1643,48 +1363,6 @@ License: You must have a valid license purchased only from themeforest(the above
 														<div class="cont">
 															<div class="cont-col1">
 																<div class="label label-sm label-success">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 40 mins
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-warning">
-																	<i class="fa fa-plus"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New user registered.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 1.5 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-success">
 																	<i class="fa fa-bell-o"></i>
 																</div>
 															</div>
@@ -1702,237 +1380,7 @@ License: You must have a valid license purchased only from themeforest(the above
 														</div>
 													</div>
 												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-default">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 3 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-warning">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 5 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-info">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 18 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-default">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 21 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-info">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 22 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-default">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 21 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-info">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 22 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-default">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 21 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-info">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 22 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-default">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 21 hours
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-info">
-																	<i class="fa fa-bullhorn"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received. Please take care of it.
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 22 hours
-														</div>
-													</div>
-												</li>
+												
 											</ul>
 										</div>
 									</div>
@@ -1962,29 +1410,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 													</a>
 												</li>
-												<li>
-													<a href="#">
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-success">
-																	<i class="fa fa-bell-o"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New order received
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 10 mins
-														</div>
-													</div>
-													</a>
-												</li>
+												
 												<li>
 													<div class="col1">
 														<div class="cont">
@@ -2008,6 +1434,7 @@ License: You must have a valid license purchased only from themeforest(the above
 														</div>
 													</div>
 												</li>
+												
 												<li>
 													<a href="#">
 													<div class="col1">
@@ -2031,6 +1458,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 													</a>
 												</li>
+												
 												<li>
 													<a href="#">
 													<div class="col1">
@@ -2054,6 +1482,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 													</a>
 												</li>
+												
 												<li>
 													<a href="#">
 													<div class="col1">
@@ -2077,133 +1506,13 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 													</a>
 												</li>
-												<li>
-													<a href="#">
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-success">
-																	<i class="fa fa-bell-o"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New user registered
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 Just now
-														</div>
-													</div>
-													</a>
-												</li>
-												<li>
-													<a href="#">
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-success">
-																	<i class="fa fa-bell-o"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New user registered
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 Just now
-														</div>
-													</div>
-													</a>
-												</li>
-												<li>
-													<a href="#">
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-success">
-																	<i class="fa fa-bell-o"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New user registered
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 Just now
-														</div>
-													</div>
-													</a>
-												</li>
-												<li>
-													<a href="#">
-													<div class="col1">
-														<div class="cont">
-															<div class="cont-col1">
-																<div class="label label-sm label-success">
-																	<i class="fa fa-bell-o"></i>
-																</div>
-															</div>
-															<div class="cont-col2">
-																<div class="desc">
-																	 New user registered
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="col2">
-														<div class="date">
-															 Just now
-														</div>
-													</div>
-													</a>
-												</li>
+												
 											</ul>
 										</div>
 									</div>
 									<div class="tab-pane" id="tab_1_3">
 										<div class="scroller" style="height: 290px;" data-always-visible="1" data-rail-visible1="1">
-											<div class="row">
-												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
-													<div class="details">
-														<div>
-															<a href="#">
-															Robert Nilson </a>
-															<span class="label label-sm label-success label-mini">
-															Approved </span>
-														</div>
-														<div>
-															 29 Jan 2013 10:45AM
-														</div>
-													</div>
-												</div>
-												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
-													<div class="details">
-														<div>
-															<a href="#">
-															Lisa Miller </a>
-															<span class="label label-sm label-info">
-															Pending </span>
-														</div>
-														<div>
-															 19 Jan 2013 10:45AM
-														</div>
-													</div>
-												</div>
-											</div>
+											
 											<div class="row">
 												<div class="col-md-6 user-info">
 													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
@@ -2234,96 +1543,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 												</div>
 											</div>
-											<div class="row">
-												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
-													<div class="details">
-														<div>
-															<a href="#">
-															Eric Kim </a>
-															<span class="label label-sm label-info">
-															Pending </span>
-														</div>
-														<div>
-															 19 Jan 2013 12:45PM
-														</div>
-													</div>
-												</div>
-												<div class="col-md-6 user-info">
-													<img alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar.png"?> class="img-responsive"/>
-													<div class="details">
-														<div>
-															<a href="#">
-															Lisa Miller </a>
-															<span class="label label-sm label-danger">
-															In progress </span>
-														</div>
-														<div>
-															 19 Jan 2013 11:55PM
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md-6 user-info">
-													<img alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar.png"?> class="img-responsive"/>
-													<div class="details">
-														<div>
-															<a href="#">
-															Eric Kim </a>
-															<span class="label label-sm label-info">
-															Pending </span>
-														</div>
-														<div>
-															 19 Jan 2013 12:45PM
-														</div>
-													</div>
-												</div>
-												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
-													<div class="details">
-														<div>
-															<a href="#">
-															Lisa Miller </a>
-															<span class="label label-sm label-danger">
-															In progress </span>
-														</div>
-														<div>
-															 19 Jan 2013 11:55PM
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
-													<div class="details">
-														<div>
-															<a href="#">
-															Eric Kim </a>
-															<span class="label label-sm label-info">
-															Pending </span>
-														</div>
-														<div>
-															 19 Jan 2013 12:45PM
-														</div>
-													</div>
-												</div>
-												<div class="col-md-6 user-info">
-													<img alt="" src="../../assets/admin/layout/img/avatar.png" class="img-responsive"/>
-													<div class="details">
-														<div>
-															<a href="#">
-															Lisa Miller </a>
-															<span class="label label-sm label-danger">
-															In progress </span>
-														</div>
-														<div>
-															 19 Jan 2013 11:55PM
-														</div>
-													</div>
-												</div>
-											</div>
+											
 											<div class="row">
 												<div class="col-md-6 user-info">
 													<img alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar.png"?> class="img-responsive"/>
