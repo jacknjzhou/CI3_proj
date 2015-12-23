@@ -20,7 +20,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN HEAD -->
 <head>
 <meta charset="utf-8"/>
-<title>Metronic | Admin Dashboard Template</title>
+<title>Jackson | Monitor And Management Platform</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="" name="description"/>
@@ -111,16 +111,6 @@ License: You must have a valid license purchased only from themeforest(the above
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time">3 mins</span>
-									<span class="details">
-									<span class="label label-sm label-icon label-danger">
-									<i class="fa fa-bolt"></i>
-									</span>
-									Server #12 overloaded. </span>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;">
 									<span class="time">10 mins</span>
 									<span class="details">
 									<span class="label label-sm label-icon label-warning">
@@ -141,36 +131,6 @@ License: You must have a valid license purchased only from themeforest(the above
 								</li>
 								<li>
 									<a href="javascript:;">
-									<span class="time">2 days</span>
-									<span class="details">
-									<span class="label label-sm label-icon label-danger">
-									<i class="fa fa-bolt"></i>
-									</span>
-									Database overloaded 68%. </span>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;">
-									<span class="time">3 days</span>
-									<span class="details">
-									<span class="label label-sm label-icon label-danger">
-									<i class="fa fa-bolt"></i>
-									</span>
-									A user IP blocked. </span>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;">
-									<span class="time">4 days</span>
-									<span class="details">
-									<span class="label label-sm label-icon label-warning">
-									<i class="fa fa-bell-o"></i>
-									</span>
-									Storage Server #4 not responding dfdfdfd. </span>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;">
 									<span class="time">5 days</span>
 									<span class="details">
 									<span class="label label-sm label-icon label-info">
@@ -179,112 +139,12 @@ License: You must have a valid license purchased only from themeforest(the above
 									System Error. </span>
 									</a>
 								</li>
-								<li>
-									<a href="javascript:;">
-									<span class="time">9 days</span>
-									<span class="details">
-									<span class="label label-sm label-icon label-danger">
-									<i class="fa fa-bolt"></i>
-									</span>
-									Storage server failed. </span>
-									</a>
-								</li>
+								
 							</ul>
 						</li>
 					</ul>
 				</li>
 				<!-- END NOTIFICATION DROPDOWN -->
-				<!-- BEGIN INBOX DROPDOWN -->
-				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-				<li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-					<i class="icon-envelope-open"></i>
-					<span class="badge badge-default">
-					4 </span>
-					</a>
-					<ul class="dropdown-menu">
-						<li class="external">
-							<h3>You have <span class="bold">7 New</span> Messages</h3>
-							<a href="page_inbox.html">view all</a>
-						</li>
-						<li>
-							<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
-								<li>
-									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src=<?=base_url()."static/assets/admin/layout3/img/avatar2.jpg"?> class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from">
-									Lisa Wong </span>
-									<span class="time">Just Now </span>
-									</span>
-									<span class="message">
-									Vivamus sed auctor nibh congue nibh. auctor nibh auctor nibh... </span>
-									</a>
-								</li>
-								<li>
-									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src=<?=base_url()."static/assets/admin/layout3/img/avatar3.jpg"?> class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from">
-									Richard Doe </span>
-									<span class="time">16 mins </span>
-									</span>
-									<span class="message">
-									Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
-									</a>
-								</li>
-								<li>
-									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src=<?=base_url()."static/assets/admin/layout3/img/avatar1.jpg"?> class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from">
-									Bob Nilson </span>
-									<span class="time">2 hrs </span>
-									</span>
-									<span class="message">
-									Vivamus sed nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
-									</a>
-								</li>
-								<li>
-									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src=<?=base_url()."static/assets/admin/layout3/img/avatar2.jpg"?> class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from">
-									Lisa Wong </span>
-									<span class="time">40 mins </span>
-									</span>
-									<span class="message">
-									Vivamus sed auctor 40% nibh congue nibh... </span>
-									</a>
-								</li>
-								<li>
-									<a href="inbox.html?a=view">
-									<span class="photo">
-									<img src=<?=base_url()."static/assets/admin/layout3/img/avatar3.jpg"?> class="img-circle" alt="">
-									</span>
-									<span class="subject">
-									<span class="from">
-									Richard Doe </span>
-									<span class="time">46 mins </span>
-									</span>
-									<span class="message">
-									Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<!-- END INBOX DROPDOWN -->
-				<!-- BEGIN TODO DROPDOWN -->
 				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
 				<li class="dropdown dropdown-extended dropdown-tasks" id="header_task_bar">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
@@ -299,17 +159,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						</li>
 						<li>
 							<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
-								<li>
-									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">New release v1.2 </span>
-									<span class="percent">30%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 40%;" class="progress-bar progress-bar-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">40% Complete</span></span>
-									</span>
-									</a>
-								</li>
+								
 								<li>
 									<a href="javascript:;">
 									<span class="task">
@@ -332,50 +182,6 @@ License: You must have a valid license purchased only from themeforest(the above
 									</span>
 									</a>
 								</li>
-								<li>
-									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">Database migration</span>
-									<span class="percent">10%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 10%;" class="progress-bar progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">10% Complete</span></span>
-									</span>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">Web server upgrade</span>
-									<span class="percent">58%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 58%;" class="progress-bar progress-bar-info" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">58% Complete</span></span>
-									</span>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">Mobile development</span>
-									<span class="percent">85%</span>
-									</span>
-									<span class="progress">
-									<span style="width: 85%;" class="progress-bar progress-bar-success" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">85% Complete</span></span>
-									</span>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;">
-									<span class="task">
-									<span class="desc">New UI release</span>
-									<span class="percent">38%</span>
-									</span>
-									<span class="progress progress-striped">
-									<span style="width: 38%;" class="progress-bar progress-bar-important" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">38% Complete</span></span>
-									</span>
-									</a>
-								</li>
 							</ul>
 						</li>
 					</ul>
@@ -392,21 +198,11 @@ License: You must have a valid license purchased only from themeforest(the above
 					</a>
 					<ul class="dropdown-menu dropdown-menu-default">
 						<li>
-							<a href="extra_profile.html">
+							<a href="javascript:;">
 							<i class="icon-user"></i> My Profile </a>
 						</li>
 						<li>
-							<a href="page_calendar.html">
-							<i class="icon-calendar"></i> My Calendar </a>
-						</li>
-						<li>
-							<a href="inbox.html">
-							<i class="icon-envelope-open"></i> My Inbox <span class="badge badge-danger">
-							3 </span>
-							</a>
-						</li>
-						<li>
-							<a href="page_todo.html">
+							<a href="javascript:;">
 							<i class="icon-rocket"></i> My Tasks <span class="badge badge-success">
 							7 </span>
 							</a>
@@ -414,11 +210,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<li class="divider">
 						</li>
 						<li>
-							<a href="extra_lock.html">
-							<i class="icon-lock"></i> Lock Screen </a>
-						</li>
-						<li>
-							<a href="login.html">
+							<a href="javascript:;">
 							<i class="icon-key"></i> Log Out </a>
 						</li>
 					</ul>
@@ -523,231 +315,59 @@ License: You must have a valid license purchased only from themeforest(the above
 						</li>
 					</ul>
 				</li>
-<!-- 				<li> -->
-<!-- 					<a href="javascript:;"> -->
-<!-- 					<i class="icon-rocket"></i> -->
-<!-- 					<span class="title">Page Layouts</span> -->
-<!-- 					<span class="arrow "></span> -->
-<!-- 					</a> -->
-<!-- 					<ul class="sub-menu"> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_horizontal_sidebar_menu.html"> -->
-<!-- 							Horizontal & Sidebar Menu</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="index_horizontal_menu.html"> -->
-<!-- 							Dashboard & Mega Menu</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_horizontal_menu1.html"> -->
-<!-- 							Horizontal Mega Menu 1</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_horizontal_menu2.html"> -->
-<!-- 							Horizontal Mega Menu 2</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_fontawesome_icons.html"> -->
-<!-- 							<span class="badge badge-roundless badge-danger">new</span>Layout with Fontawesome Icons</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_glyphicons.html"> -->
-<!-- 							Layout with Glyphicon</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_full_height_portlet.html"> -->
-<!-- 							<span class="badge badge-roundless badge-success">new</span>Full Height Portlet</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_full_height_content.html"> -->
-<!-- 							<span class="badge badge-roundless badge-warning">new</span>Full Height Content</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_search_on_header1.html"> -->
-<!-- 							Search Box On Header 1</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_search_on_header2.html"> -->
-<!-- 							Search Box On Header 2</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_sidebar_search_option1.html"> -->
-<!-- 							Sidebar Search Option 1</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_sidebar_search_option2.html"> -->
-<!-- 							Sidebar Search Option 2</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_sidebar_reversed.html"> -->
-<!-- 							<span class="badge badge-roundless badge-warning">new</span>Right Sidebar Page</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_sidebar_fixed.html"> -->
-<!-- 							Sidebar Fixed Page</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_sidebar_closed.html"> -->
-<!-- 							Sidebar Closed Page</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_ajax.html"> -->
-<!-- 							Content Loading via Ajax</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_disabled_menu.html"> -->
-<!-- 							Disabled Menu Links</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_blank_page.html"> -->
-<!-- 							Blank Page</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_boxed_page.html"> -->
-<!-- 							Boxed Page</a> -->
-<!-- 						</li> -->
-<!-- 						<li> -->
-<!-- 							<a href="layout_language_bar.html"> -->
-<!-- 							Language Switch Bar</a> -->
-<!-- 						</li> -->
-<!-- 					</ul> -->
-<!-- 				</li> -->
+
 				<li>
 					<a href="javascript:;">
 					<i class="icon-diamond"></i>
-					<span class="title">UI Features</span>
+					<span class="title">任务跟踪</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="ui_general.html">
-							General Components</a>
+							<a href="javascript:;">
+							需求任务</a>
 						</li>
 						<li>
-							<a href="ui_buttons.html">
-							Buttons</a>
+							<a href="javascript:;">
+							母机任务</a>
 						</li>
 						<li>
-							<a href="ui_confirmations.html">
-							Popover Confirmations</a>
+							<a href="javascript:;">
+							投放任务 </a>
 						</li>
 						<li>
 							<a href="ui_icons.html">
 							<span class="badge badge-roundless badge-danger">new</span>Font Icons</a>
 						</li>
 						<li>
-							<a href="ui_colors.html">
-							Flat UI Colors</a>
-						</li>
-						<li>
-							<a href="ui_typography.html">
-							Typography</a>
-						</li>
-						<li>
-							<a href="ui_tabs_accordions_navs.html">
-							Tabs, Accordions & Navs</a>
-						</li>
-						<li>
-							<a href="ui_tree.html">
-							<span class="badge badge-roundless badge-danger">new</span>Tree View</a>
-						</li>
-						<li>
 							<a href="ui_page_progress_style_1.html">
 							<span class="badge badge-roundless badge-warning">new</span>Page Progress Bar</a>
-						</li>
-						<li>
-							<a href="ui_blockui.html">
-							Block UI</a>
-						</li>
-						<li>
-							<a href="ui_notific8.html">
-							Notific8 Notifications</a>
-						</li>
-						<li>
-							<a href="ui_toastr.html">
-							Toastr Notifications</a>
-						</li>
-						<li>
-							<a href="ui_alert_dialog_api.html">
-							<span class="badge badge-roundless badge-danger">new</span>Alerts & Dialogs API</a>
-						</li>
-						<li>
-							<a href="ui_session_timeout.html">
-							Session Timeout</a>
-						</li>
-						<li>
-							<a href="ui_idle_timeout.html">
-							User Idle Timeout</a>
-						</li>
-						<li>
-							<a href="ui_modals.html">
-							Modals</a>
-						</li>
-						<li>
-							<a href="ui_extended_modals.html">
-							Extended Modals</a>
-						</li>
-						<li>
-							<a href="ui_tiles.html">
-							Tiles</a>
-						</li>
-						<li>
-							<a href="ui_datepaginator.html">
-							<span class="badge badge-roundless badge-success">new</span>Date Paginator</a>
-						</li>
-						<li>
-							<a href="ui_nestable.html">
-							Nestable List</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a href="javascript:;">
 					<i class="icon-puzzle"></i>
-					<span class="title">UI Components</span>
+					<span class="title">配置管理</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="components_pickers.html">
-							Pickers</a>
+							<a href="javascript:;">
+							步骤管理</a>
 						</li>
 						<li>
-							<a href="components_dropdowns.html">
-							Custom Dropdowns</a>
-						</li>
-						<li>
-							<a href="components_form_tools.html">
-							Form Tools</a>
-						</li>
-						<li>
-							<a href="components_editors.html">
-							Markdown & WYSIWYG Editors</a>
-						</li>
-						<li>
-							<a href="components_ion_sliders.html">
-							Ion Range Sliders</a>
-						</li>
-						<li>
-							<a href="components_noui_sliders.html">
-							NoUI Range Sliders</a>
-						</li>
-						<li>
-							<a href="components_jqueryui_sliders.html">
-							jQuery UI Sliders</a>
-						</li>
-						<li>
-							<a href="components_knob_dials.html">
-							Knob Circle Dials</a>
+							<a href="javascript:;">
+							<span class="badge badge-roundless badge-warning">NUM</span>灰度版本管理</a>
 						</li>
 					</ul>
 				</li>
 				<!-- BEGIN ANGULARJS LINK -->
-				<li class="tooltips" data-container="body" data-placement="right" data-html="true" data-original-title="AngularJS version demo">
-					<a href="angularjs" target="_blank">
+				<li class="tooltips" data-container="body" data-placement="right" data-html="true" data-original-title="其它">
+					<a href="javascript:;" target="_blank">
 					<i class="icon-paper-plane"></i>
 					<span class="title">
-					AngularJS Version </span>
+					其它 </span>
 					</a>
 				</li>
 				<!-- END ANGULARJS LINK -->
@@ -783,17 +403,17 @@ License: You must have a valid license purchased only from themeforest(the above
 				<li>
 					<a href="javascript:;">
 					<i class="icon-briefcase"></i>
-					<span class="title">Data Tables</span>
+					<span class="title">表格汇总</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
 							<a href="javascript:;">
-							Basic Datatables</a>
+							资源监控报表</a>
 						</li>
 						<li>
 							<a href="javascript:;">
-							Responsive Datatables</a>
+							任务监控报表</a>
 						</li>
 					</ul>
 				</li>
@@ -961,127 +581,27 @@ License: You must have a valid license purchased only from themeforest(the above
 			</div>
 			<!-- /.modal -->
 			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
-			<!-- BEGIN STYLE CUSTOMIZER -->
-			<div class="theme-panel hidden-xs hidden-sm">
-				<div class="toggler">
-				</div>
-				<div class="toggler-close">
-				</div>
-				<div class="theme-options">
-					<div class="theme-option theme-colors clearfix">
-						<span>
-						THEME COLOR </span>
-						<ul>
-							<li class="color-default current tooltips" data-style="default" data-container="body" data-original-title="Default">
-							</li>
-							<li class="color-darkblue tooltips" data-style="darkblue" data-container="body" data-original-title="Dark Blue">
-							</li>
-							<li class="color-blue tooltips" data-style="blue" data-container="body" data-original-title="Blue">
-							</li>
-							<li class="color-grey tooltips" data-style="grey" data-container="body" data-original-title="Grey">
-							</li>
-							<li class="color-light tooltips" data-style="light" data-container="body" data-original-title="Light">
-							</li>
-							<li class="color-light2 tooltips" data-style="light2" data-container="body" data-html="true" data-original-title="Light 2">
-							</li>
-						</ul>
-					</div>
-					<div class="theme-option">
-						<span>
-						Theme Style </span>
-						<select class="layout-style-option form-control input-sm">
-							<option value="square" selected="selected">Square corners</option>
-							<option value="rounded">Rounded corners</option>
-						</select>
-					</div>
-					<div class="theme-option">
-						<span>
-						Layout </span>
-						<select class="layout-option form-control input-sm">
-							<option value="fluid" selected="selected">Fluid</option>
-							<option value="boxed">Boxed</option>
-						</select>
-					</div>
-					<div class="theme-option">
-						<span>
-						Header </span>
-						<select class="page-header-option form-control input-sm">
-							<option value="fixed" selected="selected">Fixed</option>
-							<option value="default">Default</option>
-						</select>
-					</div>
-					<div class="theme-option">
-						<span>
-						Top Menu Dropdown</span>
-						<select class="page-header-top-dropdown-style-option form-control input-sm">
-							<option value="light" selected="selected">Light</option>
-							<option value="dark">Dark</option>
-						</select>
-					</div>
-					<div class="theme-option">
-						<span>
-						Sidebar Mode</span>
-						<select class="sidebar-option form-control input-sm">
-							<option value="fixed">Fixed</option>
-							<option value="default" selected="selected">Default</option>
-						</select>
-					</div>
-					<div class="theme-option">
-						<span>
-						Sidebar Menu </span>
-						<select class="sidebar-menu-option form-control input-sm">
-							<option value="accordion" selected="selected">Accordion</option>
-							<option value="hover">Hover</option>
-						</select>
-					</div>
-					<div class="theme-option">
-						<span>
-						Sidebar Style </span>
-						<select class="sidebar-style-option form-control input-sm">
-							<option value="default" selected="selected">Default</option>
-							<option value="light">Light</option>
-						</select>
-					</div>
-					<div class="theme-option">
-						<span>
-						Sidebar Position </span>
-						<select class="sidebar-pos-option form-control input-sm">
-							<option value="left" selected="selected">Left</option>
-							<option value="right">Right</option>
-						</select>
-					</div>
-					<div class="theme-option">
-						<span>
-						Footer </span>
-						<select class="page-footer-option form-control input-sm">
-							<option value="fixed">Fixed</option>
-							<option value="default" selected="selected">Default</option>
-						</select>
-					</div>
-				</div>
-			</div>
-			<!-- END STYLE CUSTOMIZER -->
 			<!-- BEGIN PAGE HEADER-->
 			<h3 class="page-title">
-			Dashboard <small>reports & statistics</small>
+			Dashboard(主页) <small>报表 & 统计</small>
 			</h3>
 			<div class="page-bar">
 				<ul class="page-breadcrumb">
 					<li>
 						<i class="fa fa-home"></i>
-						<a href="index.html">Home</a>
+						<a href="javascript:;">主页</a>
 						<i class="fa fa-angle-right"></i>
 					</li>
 					<li>
-						<a href="#">Dashboard</a>
+						<a href="javascript:;">索引</a>
 					</li>
 				</ul>
 				<div class="page-toolbar">
-					<div id="dashboard-report-range" class="pull-right tooltips btn btn-fit-height grey-salt" data-placement="top" data-original-title="Change dashboard date range">
-						<i class="icon-calendar"></i>&nbsp;
-						<span class="thin uppercase visible-lg-inline-block">&nbsp;</span>&nbsp;
-						<i class="fa fa-angle-down"></i>
-					</div>
+<!-- 					<div id="dashboard-report-range" class="pull-right tooltips btn btn-fit-height grey-salt" data-placement="top" data-original-title="Change dashboard date range"> -->
+<!-- 						<i class="icon-calendar"></i>&nbsp; -->
+<!-- 						<span class="thin uppercase visible-lg-inline-block">&nbsp;</span>&nbsp; -->
+<!-- 						<i class="fa fa-angle-down"></i> -->
+<!-- 					</div> -->
 				</div>
 			</div>
 			<!-- END PAGE HEADER-->
@@ -1097,11 +617,11 @@ License: You must have a valid license purchased only from themeforest(the above
 								 1349
 							</div>
 							<div class="desc">
-								 New Feedbacks
+								 新反馈量
 							</div>
 						</div>
 						<a class="more" href="#">
-						View more <i class="m-icon-swapright m-icon-white"></i>
+						查看更多 <i class="m-icon-swapright m-icon-white"></i>
 						</a>
 					</div>
 				</div>
@@ -1115,11 +635,11 @@ License: You must have a valid license purchased only from themeforest(the above
 								 12,5M$
 							</div>
 							<div class="desc">
-								 Total Profit
+								 总体利润
 							</div>
 						</div>
 						<a class="more" href="#">
-						View more <i class="m-icon-swapright m-icon-white"></i>
+						查看更多 <i class="m-icon-swapright m-icon-white"></i>
 						</a>
 					</div>
 				</div>
@@ -1133,11 +653,11 @@ License: You must have a valid license purchased only from themeforest(the above
 								 549
 							</div>
 							<div class="desc">
-								 New Orders
+								 新需求单量
 							</div>
 						</div>
 						<a class="more" href="#">
-						View more <i class="m-icon-swapright m-icon-white"></i>
+						查看更多 <i class="m-icon-swapright m-icon-white"></i>
 						</a>
 					</div>
 				</div>
@@ -1151,11 +671,11 @@ License: You must have a valid license purchased only from themeforest(the above
 								 +89%
 							</div>
 							<div class="desc">
-								 Brand Popularity
+								 关注度
 							</div>
 						</div>
 						<a class="more" href="#">
-						View more <i class="m-icon-swapright m-icon-white"></i>
+						查看更多 <i class="m-icon-swapright m-icon-white"></i>
 						</a>
 					</div>
 				</div>
@@ -1192,88 +712,6 @@ License: You must have a valid license purchased only from themeforest(the above
 					</div>
 					<!-- END PORTLET-->
 				</div>
-				<div class="col-md-6 col-sm-6">
-					<!-- BEGIN PORTLET-->
-					<div class="portlet solid grey-cararra bordered">
-						<div class="portlet-title">
-							<div class="caption">
-								<i class="fa fa-bullhorn"></i>Revenue
-							</div>
-							<div class="actions">
-								<div class="btn-group pull-right">
-									<a href="" class="btn grey-steel btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-									Filter <span class="fa fa-angle-down">
-									</span>
-									</a>
-									<ul class="dropdown-menu pull-right">
-										<li>
-											<a href="javascript:;">
-											Q1 2014 <span class="label label-sm label-default">
-											past </span>
-											</a>
-										</li>
-										<li>
-											<a href="javascript:;">
-											Q2 2014 <span class="label label-sm label-default">
-											past </span>
-											</a>
-										</li>
-										<li class="active">
-											<a href="javascript:;">
-											Q3 2014 <span class="label label-sm label-success">
-											current </span>
-											</a>
-										</li>
-										<li>
-											<a href="javascript:;">
-											Q4 2014 <span class="label label-sm label-warning">
-											upcoming </span>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="portlet-body">
-							<div id="site_activities_loading">
-								<img src=<?=base_url()."static/assets/admin/layout/img/loading.gif"?> alt="loading"/>
-							</div>
-							<div id="site_activities_content" class="display-none">
-								<div id="site_activities" style="height: 228px;">
-								</div>
-							</div>
-							<div style="margin: 20px 0 10px 30px">
-								<div class="row">
-									<div class="col-md-3 col-sm-3 col-xs-6 text-stat">
-										<span class="label label-sm label-success">
-										Revenue: </span>
-										<h3>$13,234</h3>
-									</div>
-									<div class="col-md-3 col-sm-3 col-xs-6 text-stat">
-										<span class="label label-sm label-info">
-										Tax: </span>
-										<h3>$134,900</h3>
-									</div>
-									<div class="col-md-3 col-sm-3 col-xs-6 text-stat">
-										<span class="label label-sm label-danger">
-										Shipment: </span>
-										<h3>$1,134</h3>
-									</div>
-									<div class="col-md-3 col-sm-3 col-xs-6 text-stat">
-										<span class="label label-sm label-warning">
-										Orders: </span>
-										<h3>235090</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- END PORTLET-->
-				</div>
-			</div>
-			<div class="clearfix">
-			</div>
-			<div class="row ">
 				<div class="col-md-6 col-sm-6">
 					
 					<!-- BEGIN PORTLET-->
@@ -1584,378 +1022,6 @@ License: You must have a valid license purchased only from themeforest(the above
 					<!-- END PORTLET-->
 					
 				</div>
-				<div class="col-md-6 col-sm-6">
-					<div class="portlet box green-haze tasks-widget">
-						<div class="portlet-title">
-							<div class="caption">
-								<i class="fa fa-check"></i>任务列表
-							</div>
-							<div class="tools">
-								<a href="#portlet-config" data-toggle="modal" class="config">
-								</a>
-								<a href="" class="reload">
-								</a>
-								<a href="javascript:;" class="fullscreen">
-								</a>
-							</div>
-							<div class="actions">
-								<div class="btn-group">
-									<a class="btn btn-default btn-sm dropdown-toggle" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-									More <i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu pull-right">
-										<li>
-											<a href="#">
-											<i class="i"></i> All Project </a>
-										</li>
-										<li class="divider">
-										</li>
-										<li>
-											<a href="#">
-											AirAsia </a>
-										</li>
-										<li>
-											<a href="#">
-											Cruise </a>
-										</li>
-										<li>
-											<a href="#">
-											HSBC </a>
-										</li>
-										<li class="divider">
-										</li>
-										<li>
-											<a href="#">
-											Pending <span class="badge badge-danger">
-											4 </span>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-											Completed <span class="badge badge-success">
-											12 </span>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-											Overdue <span class="badge badge-warning">
-											9 </span>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="portlet-body">
-							<div class="task-content">
-								<div class="scroller" style="height: 305px;" data-always-visible="1" data-rail-visible1="1">
-									<!-- START TASK LIST -->
-									<ul class="task-list">
-										<li>
-											<div class="task-checkbox">
-												<input type="hidden" value="1" name="test"/>
-												<input type="checkbox" class="liChild" value="2" name="test"/>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-												Present 2013 Year IPO Statistics at Board Meeting </span>
-												<span class="label label-sm label-success">Company</span>
-												<span class="task-bell">
-												<i class="fa fa-bell-o"></i>
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-													<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-															<i class="fa fa-check"></i> Complete </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-pencil"></i> Edit </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-trash-o"></i> Cancel </a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<input type="checkbox" class="liChild" value=""/>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-												Hold An Interview for Marketing Manager Position </span>
-												<span class="label label-sm label-danger">Marketing</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-													<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-															<i class="fa fa-check"></i> Complete </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-pencil"></i> Edit </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-trash-o"></i> Cancel </a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<input type="checkbox" class="liChild" value=""/>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-												AirAsia Intranet System Project Internal Meeting </span>
-												<span class="label label-sm label-success">AirAsia</span>
-												<span class="task-bell">
-												<i class="fa fa-bell-o"></i>
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-													<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-															<i class="fa fa-check"></i> Complete </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-pencil"></i> Edit </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-trash-o"></i> Cancel </a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<input type="checkbox" class="liChild" value=""/>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-												Technical Management Meeting </span>
-												<span class="label label-sm label-warning">Company</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-													<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-															<i class="fa fa-check"></i> Complete </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-pencil"></i> Edit </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-trash-o"></i> Cancel </a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<input type="checkbox" class="liChild" value=""/>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-												Kick-off Company CRM Mobile App Development </span>
-												<span class="label label-sm label-info">Internal Products</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-													<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-															<i class="fa fa-check"></i> Complete </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-pencil"></i> Edit </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-trash-o"></i> Cancel </a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<input type="checkbox" class="liChild" value=""/>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-												Prepare Commercial Offer For SmartVision Website Rewamp </span>
-												<span class="label label-sm label-danger">SmartVision</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-													<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-															<i class="fa fa-check"></i> Complete </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-pencil"></i> Edit </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-trash-o"></i> Cancel </a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<input type="checkbox" class="liChild" value=""/>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-												Sign-Off The Comercial Agreement With AutoSmart </span>
-												<span class="label label-sm label-default">AutoSmart</span>
-												<span class="task-bell">
-												<i class="fa fa-bell-o"></i>
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-													<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-															<i class="fa fa-check"></i> Complete </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-pencil"></i> Edit </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-trash-o"></i> Cancel </a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<input type="checkbox" class="liChild" value=""/>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-												Company Staff Meeting </span>
-												<span class="label label-sm label-success">Cruise</span>
-												<span class="task-bell">
-												<i class="fa fa-bell-o"></i>
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-													<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-															<i class="fa fa-check"></i> Complete </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-pencil"></i> Edit </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-trash-o"></i> Cancel </a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li class="last-line">
-											<div class="task-checkbox">
-												<input type="checkbox" class="liChild" value=""/>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-												KeenThemes Investment Discussion </span>
-												<span class="label label-sm label-warning">KeenThemes </span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-													<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-															<i class="fa fa-check"></i> Complete </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-pencil"></i> Edit </a>
-														</li>
-														<li>
-															<a href="#">
-															<i class="fa fa-trash-o"></i> Cancel </a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<!-- END START TASK LIST -->
-								</div>
-							</div>
-							<div class="task-footer">
-								<div class="btn-arrow-link pull-right">
-									<a href="#">查看所有记录</a>
-									<i class="icon-arrow-right"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 			<div class="clearfix">
 			</div>
@@ -2116,132 +1182,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</ul>
 				<div class="tab-content">
 					<div class="tab-pane active page-quick-sidebar-chat" id="quick_sidebar_tab_1">
-						<div class="page-quick-sidebar-chat-users" data-rail-color="#ddd" data-wrapper-class="page-quick-sidebar-list">
-							<h3 class="list-heading">Staff</h3>
-							<ul class="media-list list-items">
-								<li class="media">
-									<div class="media-status">
-										<span class="badge badge-success">8</span>
-									</div>
-									<img class="media-object" src=<?=base_url()."static/assets/admin/layout/img/avatar3.jpg"?> alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Bob Nilson</h4>
-										<div class="media-heading-sub">
-											 Project Manager
-										</div>
-									</div>
-								</li>
-								<li class="media">
-									<img class="media-object" src=<?=base_url()."static/assets/admin/layout/img/avatar1.jpg"?> alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Nick Larson</h4>
-										<div class="media-heading-sub">
-											 Art Director
-										</div>
-									</div>
-								</li>
-								<li class="media">
-									<div class="media-status">
-										<span class="badge badge-danger">3</span>
-									</div>
-									<img class="media-object" src="../../assets/admin/layout/img/avatar4.jpg" alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Deon Hubert</h4>
-										<div class="media-heading-sub">
-											 CTO
-										</div>
-									</div>
-								</li>
-								<li class="media">
-									<img class="media-object" src="../../assets/admin/layout/img/avatar2.jpg" alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Ella Wong</h4>
-										<div class="media-heading-sub">
-											 CEO
-										</div>
-									</div>
-								</li>
-							</ul>
-							<h3 class="list-heading">Customers</h3>
-							<ul class="media-list list-items">
-								<li class="media">
-									<div class="media-status">
-										<span class="badge badge-warning">2</span>
-									</div>
-									<img class="media-object" src="../../assets/admin/layout/img/avatar6.jpg" alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Lara Kunis</h4>
-										<div class="media-heading-sub">
-											 CEO, Loop Inc
-										</div>
-										<div class="media-heading-small">
-											 Last seen 03:10 AM
-										</div>
-									</div>
-								</li>
-								<li class="media">
-									<div class="media-status">
-										<span class="label label-sm label-success">new</span>
-									</div>
-									<img class="media-object" src="../../assets/admin/layout/img/avatar7.jpg" alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Ernie Kyllonen</h4>
-										<div class="media-heading-sub">
-											 Project Manager,<br>
-											 SmartBizz PTL
-										</div>
-									</div>
-								</li>
-								<li class="media">
-									<img class="media-object" src="../../assets/admin/layout/img/avatar8.jpg" alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Lisa Stone</h4>
-										<div class="media-heading-sub">
-											 CTO, Keort Inc
-										</div>
-										<div class="media-heading-small">
-											 Last seen 13:10 PM
-										</div>
-									</div>
-								</li>
-								<li class="media">
-									<div class="media-status">
-										<span class="badge badge-success">7</span>
-									</div>
-									<img class="media-object" src="../../assets/admin/layout/img/avatar9.jpg" alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Deon Portalatin</h4>
-										<div class="media-heading-sub">
-											 CFO, H&D LTD
-										</div>
-									</div>
-								</li>
-								<li class="media">
-									<img class="media-object" src="../../assets/admin/layout/img/avatar10.jpg" alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Irina Savikova</h4>
-										<div class="media-heading-sub">
-											 CEO, Tizda Motors Inc
-										</div>
-									</div>
-								</li>
-								<li class="media">
-									<div class="media-status">
-										<span class="badge badge-danger">4</span>
-									</div>
-									<img class="media-object" src="../../assets/admin/layout/img/avatar11.jpg" alt="...">
-									<div class="media-body">
-										<h4 class="media-heading">Maria Gomez</h4>
-										<div class="media-heading-sub">
-											 Manager, Infomatic Inc
-										</div>
-										<div class="media-heading-small">
-											 Last seen 03:10 AM
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
+						
 						<div class="page-quick-sidebar-item">
 							<div class="page-quick-sidebar-chat-user">
 								<div class="page-quick-sidebar-nav">
@@ -2318,35 +1259,9 @@ License: You must have a valid license purchased only from themeforest(the above
 											Great! Thanks. Will check it right away. </span>
 										</div>
 									</div>
-									<div class="post in">
-										<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar2.jpg"/>
-										<div class="message">
-											<span class="arrow"></span>
-											<a href="#" class="name">Ella Wong</a>
-											<span class="datetime">20:40</span>
-											<span class="body">
-											Please let me know if you have any comment. </span>
-										</div>
-									</div>
-									<div class="post out">
-										<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
-										<div class="message">
-											<span class="arrow"></span>
-											<a href="#" class="name">Bob Nilson</a>
-											<span class="datetime">20:17</span>
-											<span class="body">
-											Sure. I will check and buzz you if anything needs to be corrected. </span>
-										</div>
-									</div>
+									
 								</div>
-								<div class="page-quick-sidebar-chat-user-form">
-									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Type a message here...">
-										<div class="input-group-btn">
-											<button type="button" class="btn blue"><i class="icon-paper-clip"></i></button>
-										</div>
-									</div>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -2728,7 +1643,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN FOOTER -->
 <div class="page-footer">
 	<div class="page-footer-inner">
-		 2014 &copy; Metronic by keenthemes.
+		 2016 &copy; Powered by jackson.
 	</div>
 	<div class="scroll-to-top">
 		<i class="icon-arrow-up"></i>

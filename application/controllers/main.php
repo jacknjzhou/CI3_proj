@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Main extends CI_Controller {
+class Main extends Mx_Controller {
 
     /**
      * Index Page for this controller.
@@ -18,8 +18,12 @@ class Main extends CI_Controller {
      * map to /index.php/welcome/<method_name>
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
-    public function index()
-    {
-        $this->load->view('main');
-    }
+	public function  __construct(){
+		parent::__construct();
+		}
+	
+	public function index(){
+		$data =Array();
+		$this->page->renderInTheme('main',array('class'=>'demo','data'=>$data),'default');
+		}
 }
