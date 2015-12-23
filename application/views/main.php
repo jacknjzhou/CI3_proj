@@ -762,20 +762,20 @@ License: You must have a valid license purchased only from themeforest(the above
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="form_controls.html">
-							Form Controls</a>
+							<a href="javascript:;">
+							清理固资</a>
 						</li>
 						<li>
-							<a href="form_icheck.html">
-							iCheck Controls</a>
+							<a href="javascript:;">
+							清理IP</a>
 						</li>
 						<li>
-							<a href="form_layouts.html">
-							Form Layouts</a>
+							<a href="javascript:;">
+							健康检查</a>
 						</li>
 						<li>
-							<a href="form_editable.html">
-							<span class="badge badge-roundless badge-warning">new</span>Form X-editable</a>
+							<a href="javascript:;">
+							<span class="badge badge-roundless badge-warning">new</span>新功能</a>
 						</li>
 						
 					</ul>
