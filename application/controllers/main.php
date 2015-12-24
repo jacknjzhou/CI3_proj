@@ -26,4 +26,8 @@ class Main extends Mx_Controller {
 		$data =Array();
 		$this->page->renderInTheme('main',array('class'=>'demo','data'=>$data),'default');
 		}
+
+     public function get_info_ajax(){
+
+     }
 }

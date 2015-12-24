@@ -316,7 +316,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<li>
 							<a href="javascript:;">
 							<i class="icon-handbag"></i>
-							产品详情</a>
+							投放详情</a>
 						</li>
 						<li>
 							<a href="javascript:;">

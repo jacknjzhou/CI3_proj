@@ -83,16 +83,16 @@
 			<div class="portlet solid bordered grey-cararra">
 				<div class="portlet-title">
 					<div class="caption">
-						<i class="fa fa-bar-chart-o"></i>Site Visits
+						<i class="fa fa-bar-chart-o"></i>访问量
 					</div>
-					<div class="actions">
+					<!-- <div class="actions">
 						<div class="btn-group" data-toggle="buttons">
 							<label class="btn grey-steel btn-sm active">
 							<input type="radio" name="options" class="toggle" id="option1">New</label>
 							<label class="btn grey-steel btn-sm">
 							<input type="radio" name="options" class="toggle" id="option2">Returning</label>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div class="portlet-body">
 					<div id="site_statistics_loading">
@@ -110,21 +110,21 @@
 			
 			<!-- BEGIN PORTLET-->
 			<div class="portlet paddingless">
-				<div class="portlet-title line">
+			<!-- 	<div class="portlet-title line">
 					<div class="caption">
 						<i class="fa fa-bell-o"></i>新闻概览
 					</div>
 <!-- 							<div class="tools"> -->
 <!-- 								<a href="" class="collapse"> -->
 <!-- 								</a> -->
-<!-- 								<a href="#portlet-config" data-toggle="modal" class="config"> -->
+								<!-- <a href="#portlet-config" data-toggle="modal" class="config"> -->
 <!-- 								</a> -->
 <!-- 								<a href="" class="reload"> -->
 <!-- 								</a> -->
 <!-- 								<a href="" class="remove"> -->
 <!-- 								</a> -->
 <!-- 							</div> -->
-				</div>
+				<!-- </div> --> 
 				<div class="portlet-body">
 					<!--BEGIN TABS(采用的tab布局方式进行切换)-->
 					<div class="tabbable tabbable-custom">
