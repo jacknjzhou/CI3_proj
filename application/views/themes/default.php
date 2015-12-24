@@ -899,6 +899,8 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src=<?=base_url()."static/assets/admin/layout/scripts/demo.js"?> type="text/javascript"></script>
 <script src=<?=base_url()."static/assets/admin/pages/scripts/index.js"?> type="text/javascript"></script>
 <script src=<?=base_url()."static/assets/admin/pages/scripts/tasks.js"?> type="text/javascript"></script>
+<script src=<?=base_url()."static/js/main.js"?> type="text/javascript"></script>
+
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
 jQuery(document).ready(function() {    
@@ -914,6 +916,8 @@ jQuery(document).ready(function() {
    Index.initChat();
    Index.initMiniCharts();
    Tasks.initDashboardWidget();
+
+   //get_info_ajax();
 });
 </script>
 <!-- END JAVASCRIPTS -->

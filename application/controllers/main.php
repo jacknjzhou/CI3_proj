@@ -27,7 +27,14 @@ class Main extends Mx_Controller {
 		$this->page->renderInTheme('main',array('class'=>'demo','data'=>$data),'default');
 		}
 
-     public function get_info_ajax(){
+     public function get_rectange_info_ajax(){
+          $info = Array();
+          $info['total_num']=12;
+          $info['total_profit']=24;
+          $info['need_list_num']=120;
+          $info['care_ratio']=20;
 
+          echo json_encode($info);
+          return;
      }
 }

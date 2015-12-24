@@ -1,5 +1,7 @@
 <?php 
+//$this->addJsHeaders('main','default');
 ?>
+
 <div class="row">
 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 		<div class="dashboard-stat blue-madison">
@@ -7,7 +9,7 @@
 				<i class="fa fa-comments"></i>
 			</div>
 			<div class="details">
-				<div class="number">
+				<div class="number" id="total_num">
 					 1349
 				</div>
 				<div class="desc">
@@ -25,7 +27,7 @@
 				<i class="fa fa-bar-chart-o"></i>
 			</div>
 			<div class="details">
-				<div class="number">
+				<div class="number" id="total_profit">
 					 12,5M$
 				</div>
 				<div class="desc">
@@ -43,7 +45,7 @@
 				<i class="fa fa-shopping-cart"></i>
 			</div>
 			<div class="details">
-				<div class="number">
+				<div class="number" id="need_list_num">
 					 549
 				</div>
 				<div class="desc">
@@ -61,7 +63,7 @@
 				<i class="fa fa-globe"></i>
 			</div>
 			<div class="details">
-				<div class="number">
+				<div class="number" id="care_ratio">
 					 +89%
 				</div>
 				<div class="desc">
