@@ -38,6 +38,8 @@ License: You must have a valid license purchased only from themeforest(the above
 <link href=<?=base_url().'static/public/plugins/fullcalendar/fullcalendar.min.css'?> rel="stylesheet" type="text/css"/>
 <link href=<?=base_url().'static/public/plugins/jqvmap/jqvmap/jqvmap.css'?> rel="stylesheet" type="text/css"/>
 <!-- END PAGE LEVEL PLUGIN STYLES -->
+<link href=<?=base_url().'static/public/plugins/select2/select2.css'?> rel="stylesheet" type="text/css"  />
+<link  href=<?=base_url().'static/public/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css'?> rel="stylesheet" type="text/css" />
 <!-- BEGIN PAGE STYLES -->
 <link href=<?=base_url().'static/assets/admin/pages/css/tasks.css'?> rel="stylesheet" type="text/css"/>
 <!-- END PAGE STYLES -->
@@ -490,26 +492,29 @@ License: You must have a valid license purchased only from themeforest(the above
 				<li>
 					<a href="javascript:;">
 					<i class="icon-folder"></i>
-					<span class="title">多层级菜单演示</span>
+					<span class="title">任务详情跟踪</span>
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li>
 							<a href="javascript:;">
-							<i class="icon-settings"></i> Item 1 <span class="arrow"></span>
+							<i class="icon-settings"></i>投放匹配任务<span class="arrow"></span>
 							</a>
 							<ul class="sub-menu">
 								<li>
+									<a href="/index.php/match_task/index"><i class="icon-camera"></i>匹配任务</a>
+								</li>
+								<li>
 									<a href="javascript:;">
 									<i class="icon-user"></i>
-									Sample Link 1 <span class="arrow"></span>
+									初始化任务 <span class="arrow"></span>
 									</a>
 									<ul class="sub-menu">
 										<li>
-											<a href="#"><i class="icon-power"></i> Sample Link 1</a>
+											<a href="#"><i class="icon-power"></i>预检查</a>
 										</li>
 										<li>
-											<a href="#"><i class="icon-paper-plane"></i> Sample Link 1</a>
+											<a href="#"><i class="icon-paper-plane"></i>初始化</a>
 										</li>
 										<li>
 											<a href="#"><i class="icon-star"></i> Sample Link 1</a>
@@ -517,14 +522,28 @@ License: You must have a valid license purchased only from themeforest(the above
 									</ul>
 								</li>
 								<li>
-									<a href="#"><i class="icon-camera"></i> Sample Link 1</a>
+									<a href="javascript:;">
+									<i class="icon-user"></i>
+									投放任务 <span class="arrow"></span>
+									</a>
+									<ul class="sub-menu">
+										<li>
+											<a href="#"><i class="icon-power"></i>组件安装</a>
+										</li>
+										<li>
+											<a href="#"><i class="icon-paper-plane"></i>投放</a>
+										</li>
+										<li>
+											<a href="#"><i class="icon-star"></i> Sample Link 1</a>
+										</li>
+									</ul>
 								</li>
 								<li>
-									<a href="#"><i class="icon-link"></i> Sample Link 2</a>
+									<a href="#"><i class="icon-link"></i>下线<a>
 								</li>
-								<li>
-									<a href="#"><i class="icon-pointer"></i> Sample Link 3</a>
-								</li>
+<!-- 								<li> -->
+<!-- 									<a href="#"><i class="icon-pointer"></i> Sample Link 3</a> -->
+<!-- 								</li> -->
 							</ul>
 						</li>
 						
@@ -678,7 +697,7 @@ License: You must have a valid license purchased only from themeforest(the above
 								</div>
 								<div class="page-quick-sidebar-chat-user-messages">
 									<div class="post out">
-										<img class="avatar" alt="" src=<?=base_url();?>."static/assets/admin/layout/img/avatar3.jpg"/>
+										<img class="avatar" alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar3.jpg"?>/>
 										<div class="message">
 											<span class="arrow"></span>
 											<a href="#" class="name">Bob Nilson</a>
@@ -688,7 +707,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										</div>
 									</div>
 									<div class="post in">
-										<img class="avatar" alt="" src=<?=base_url();?>."static/assets/admin/layout/img/avatar2.jpg"/>
+										<img class="avatar" alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar2.jpg"?>/>
 										<div class="message">
 											<span class="arrow"></span>
 											<a href="#" class="name">Ella Wong</a>
@@ -698,7 +717,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										</div>
 									</div>
 									<div class="post out">
-										<img class="avatar" alt="" src=<?=base_url();?>."static/assets/admin/layout/img/avatar3.jpg"/>
+										<img class="avatar" alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar3.jpg"?>/>
 										<div class="message">
 											<span class="arrow"></span>
 											<a href="#" class="name">Bob Nilson</a>
@@ -707,18 +726,9 @@ License: You must have a valid license purchased only from themeforest(the above
 											Alright. Thanks! :) </span>
 										</div>
 									</div>
-									<div class="post in">
-										<img class="avatar" alt="" src=<?=base_url();?>."static/assets/admin/layout/img/avatar2.jpg"/>
-										<div class="message">
-											<span class="arrow"></span>
-											<a href="#" class="name">Ella Wong</a>
-											<span class="datetime">20:16</span>
-											<span class="body">
-											You are most welcome. Sorry for the delay. </span>
-										</div>
-									</div>
+									
 									<div class="post out">
-										<img class="avatar" alt="" src=<?=base_url();?>."static/assets/admin/layout/img/avatar3.jpg"/>
+										<img class="avatar" alt="" src=<?=base_url()."static/assets/admin/layout/img/avatar3.jpg"?>/>
 										<div class="message">
 											<span class="arrow"></span>
 											<a href="#" class="name">Bob Nilson</a>
@@ -892,6 +902,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src=<?=base_url()."static/public/plugins/jquery-easypiechart/jquery.easypiechart.min.js"?> type="text/javascript"></script>
 <script src=<?=base_url()."static/public/plugins/jquery.sparkline.min.js"?> type="text/javascript"></script>
 <!-- END PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src=<?=base_url()."static/public/plugins/select2/select2.min.js"?>></script>
+<script type="text/javascript" src=<?=base_url()."static/public/plugins/datatables/media/js/jquery.dataTables.min.js"?>></script>
+<script type="text/javascript" src=<?=base_url()."static/public/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js"?>></script>
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script src=<?=base_url()."static/public/scripts/metronic.js"?> type="text/javascript"></script>
 <script src=<?=base_url()."static/assets/admin/layout/scripts/layout.js"?> type="text/javascript"></script>
@@ -899,6 +912,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src=<?=base_url()."static/assets/admin/layout/scripts/demo.js"?> type="text/javascript"></script>
 <script src=<?=base_url()."static/assets/admin/pages/scripts/index.js"?> type="text/javascript"></script>
 <script src=<?=base_url()."static/assets/admin/pages/scripts/tasks.js"?> type="text/javascript"></script>
+<script src=<?=base_url()."static/assets/admin/pages/scripts/table-managed.js"?> ></script>
 <script src=<?=base_url()."static/js/main.js"?> type="text/javascript"></script>
 
 <!-- END PAGE LEVEL SCRIPTS -->
@@ -916,7 +930,7 @@ jQuery(document).ready(function() {
    Index.initChat();
    Index.initMiniCharts();
    Tasks.initDashboardWidget();
-
+   TableManaged.init();
    //get_info_ajax();
 });
 </script>

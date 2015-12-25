@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Demo extends Mx_Controller {
+class Match_task extends Mx_Controller {
 
     /**
      * Index Page for this controller.
@@ -24,12 +24,10 @@ class Demo extends Mx_Controller {
 	
 	public function index(){
 		$data =Array();
-		$data['demo']=$this->get_info();
-		log_message('error', json_encode($data));
-		$this->page->renderInTheme('demo',array('class'=>'demo','data'=>$data),'default');
+		$this->page->renderInTheme('match_task',array('class'=>'match_task','data'=>$data),'default');
 		}
+	/***/
+	public function get_task_list_info_by_condition($condition){
 		
-	public function get_info(){
-		return $this->model->matchtask->get_info();
 	}
 }
