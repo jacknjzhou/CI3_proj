@@ -20,14 +20,20 @@ class Match_task extends Mx_Controller {
      */
 	public function  __construct(){
 		parent::__construct();
+		
 		}
 	
 	public function index(){
 		$data =Array();
+		$data['detail_info']=$this->model->match_task->get_info();
+		log_message("error", json_encode($data));
 		$this->page->renderInTheme('match_task',array('class'=>'match_task','data'=>$data),'default');
 		}
 	/***/
-	public function get_task_list_info_by_condition($condition){
+	public function get_task_list_info_by_condition($condition=NULL){
+		$data = Array();
+		$data['detail_info']=$this->model->match_task->get_info($condition);
 		
+		$this->page->renderInTheme('match_task',array('class'=>'match_task','data'=>$data),'default');
 	}
 }

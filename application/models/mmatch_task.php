@@ -1,20 +1,26 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Mmatchtask extends Mx_Model {
+class Mmatch_task extends Mx_Model {
 	
 	public function __construct(){
 		parent::__construct();
 		$this->sqlite_DB = $this->load->database('sqlite',TRUE);
+		$this->table = 't_match_info';
 	}
 	
-	public function get_info(){
+	public function get_info($condition=NULL){
 		
 // 		$query = $this->sqlite_DB->select('*')->from('demo');
 // 		foreach ($query->result as $row){
 // 			echo $row->id;
 // 		}
-		$query = 'select * from host_operator;';
+		if ($condition ==NULL){
+			$query = 'select * from '.$this->table.';';
+		}
+		else{
+			
+		}
 		return $this->sqlite_DB->query($query)->result_array();	
 	#echo $query->num_rows();
 	}

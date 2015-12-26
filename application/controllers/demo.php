@@ -30,6 +30,6 @@ class Demo extends Mx_Controller {
 		}
 		
 	public function get_info(){
-		return $this->model->matchtask->get_info();
+		return $this->model->match_task->get_info();
 	}
 }
