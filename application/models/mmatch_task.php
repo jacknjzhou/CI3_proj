@@ -19,8 +19,15 @@ class Mmatch_task extends Mx_Model {
 			$query = 'select * from '.$this->table.';';
 		}
 		else{
-			
+			log_message('error', json_encode($condition));
+			$query = 'select * from '.$this->table.' where ';
+			foreach ($condition as $key=>$value){
+				$query =$query.'`'.$key.'`';
+				$query=$query.'='.'\''.strval($value).'\'';
+			}
+			$query=$query.';';
 		}
+		log_message('error', $query);
 		return $this->sqlite_DB->query($query)->result_array();	
 	#echo $query->num_rows();
 	}

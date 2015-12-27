@@ -29,6 +29,8 @@
 <!-- 								Add New <i class="fa fa-plus"></i> -->
 <!--  								</button> -->
 <!-- 							</div> -->
+						<input type='text' val='' id="search_info" />
+						<div id="display"></div>
 						</div>
 						<div class="col-md-6">
 							<div class="btn-group pull-right">
@@ -87,7 +89,7 @@
 					</th>
 				</tr>
 				</thead>
-				<tbody>
+				<tbody id="disp_tbody">
 				<?php foreach ($data['detail_info'] as $item){?>
 					<tr class="odd gradeX">
 						<td>

@@ -36,4 +36,20 @@ class Match_task extends Mx_Controller {
 		
 		$this->page->renderInTheme('match_task',array('class'=>'match_task','data'=>$data),'default');
 	}
+	public function get_task_info_ajax_by_condition(){
+		$info = $this->input->post('id');
+		log_message("error","enter here");
+		log_message("error",$info);
+		if ($info){
+			$result = $this->model->match_task->get_info(Array('id'=>$info));
+			
+		}
+		else{
+			$result=Array();
+		}
+		$tt = json_encode($result);
+		log_message("error", $tt);
+		echo $tt;
+		return;
+	}
 }

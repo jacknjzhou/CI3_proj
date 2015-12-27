@@ -914,6 +914,8 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src=<?=base_url()."static/assets/admin/pages/scripts/tasks.js"?> type="text/javascript"></script>
 <script src=<?=base_url()."static/assets/admin/pages/scripts/table-managed.js"?> ></script>
 <script src=<?=base_url()."static/js/main.js"?> type="text/javascript"></script>
+<script src=<?=base_url()."static/js/match_task.js"?> type="text/javascript"></script>
+
 
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
