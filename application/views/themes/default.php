@@ -365,7 +365,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="javascript:;">
+							<a href="/index.php/step_mgr/index">
 							步骤管理</a>
 						</li>
 						<li>

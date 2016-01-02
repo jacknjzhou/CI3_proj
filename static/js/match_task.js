@@ -40,3 +40,9 @@ jQuery(document).ready(function(){
     	});
     });
 });
+
+$(document).ready(function(){
+    $("a href").click(function(){
+        $("#log_detail").show();
+    })
+})
