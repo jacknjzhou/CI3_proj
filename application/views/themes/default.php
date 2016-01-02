@@ -327,7 +327,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						</li>
 					</ul>
 				</li>
-
+<!-- 
 				<li>
 					<a href="javascript:;">
 					<i class="icon-diamond"></i>
@@ -347,16 +347,16 @@ License: You must have a valid license purchased only from themeforest(the above
 							<a href="javascript:;">
 							投放任务 </a>
 						</li>
-						<li>
+ 						<li>
 							<a href="ui_icons.html">
 							<span class="badge badge-roundless badge-danger">new</span>Font Icons</a>
 						</li>
 						<li>
 							<a href="ui_page_progress_style_1.html">
 							<span class="badge badge-roundless badge-warning">new</span>Page Progress Bar</a>
-						</li>
+						</li> 
 					</ul>
-				</li>
+				</li> -->
 				<li>
 					<a href="javascript:;">
 					<i class="icon-puzzle"></i>
@@ -369,7 +369,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							步骤管理</a>
 						</li>
 						<li>
-							<a href="javascript:;">
+							<a href="/index.php/gray_mgr/index">
 							<span class="badge badge-roundless badge-warning">NUM</span>灰度版本管理</a>
 						</li>
 					</ul>
@@ -412,7 +412,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						
 					</ul>
 				</li>
-				<li>
+<!-- 				<li>
 					<a href="javascript:;">
 					<i class="icon-briefcase"></i>
 					<span class="title">表格汇总</span>
@@ -428,8 +428,8 @@ License: You must have a valid license purchased only from themeforest(the above
 							任务监控报表</a>
 						</li>
 					</ul>
-				</li>
-				<li>
+				</li> -->
+	<!-- 			<li>
 					<a href="javascript:;">
 					<i class="icon-wallet"></i>
 					<span class="title">Portlets</span>
@@ -447,8 +447,8 @@ License: You must have a valid license purchased only from themeforest(the above
 						</li>
 						
 					</ul>
-				</li>
-				<li>
+				</li> -->
+<!-- 				<li>
 					<a href="javascript:;">
 					<i class="icon-bar-chart"></i>
 					<span class="title">相关图表</span>
@@ -460,7 +460,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							图表</a>
 						</li>
 					</ul>
-				</li>
+				</li> -->
 				<li>
 					<a href="javascript:;">
 					<i class="icon-docs"></i>
@@ -511,7 +511,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									</a>
 									<ul class="sub-menu">
 										<li>
-											<a href="#"><i class="icon-power"></i>预检查</a>
+											<a href="/index.php/pre_check_task/index"><i class="icon-power"></i>预检查</a>
 										</li>
 										<li>
 											<a href="#"><i class="icon-paper-plane"></i>初始化</a>
