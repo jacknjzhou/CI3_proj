@@ -514,7 +514,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<a href="/index.php/pre_check_task/index"><i class="icon-power"></i>预检查</a>
 										</li>
 										<li>
-											<a href="#"><i class="icon-paper-plane"></i>初始化</a>
+											<a href="/index.php/init_task/index"><i class="icon-paper-plane"></i>初始化</a>
 										</li>
 										<li>
 											<a href="#"><i class="icon-star"></i> Sample Link 1</a>

@@ -7,7 +7,7 @@
         <div class="portlet box grey-cascade">
             <div class="portlet-title">
                 <div class="caption">
-                    <i class="fa fa-globe"></i>预检查任务
+                    <i class="fa fa-globe"></i>初始化任务
                 </div>
                 <div class="tools">
                     <a href="javascript:;" class="collapse">
@@ -128,7 +128,7 @@
                             <?php echo $item['finish_time']?>
                         </td>
                         <td>
-                            <a href="javascript:void(0);">详情</a>
+                            <button  id="init_task_detail">详情</button>
                         </td>
                     </tr>
                     <?php }?>
@@ -141,17 +141,20 @@
     </div>
 </div>
 
-<div id="log_detail" class="modal hide fade in" style="display: none; ">
-<div class="modal-header">
-<a class="close" data-dismiss="modal">×</a>
-<h3>This is a Modal Heading</h3>
+<div id="init_log_detail" class="modal hide fade in" style="display: block; ">
+    <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>This is a Modal Heading</h3>
+    </div>
+    <div class="modal-body">
+    <h4>Text in a modal</h4>
+    <p>You can add some text here.</p>              
+    </div>
+    <div class="modal-footer">
+    <a href="#" class="btn btn-success">Call to action</a>
+    <a href="#" class="btn" data-dismiss="modal">Close</a>
+    </div>
 </div>
-<div class="modal-body">
-<h4>Text in a modal</h4>
-<p>You can add some text here.</p>              
-</div>
-<div class="modal-footer">
-<a href="#" class="btn btn-success">Call to action</a>
-<a href="#" class="btn" data-dismiss="modal">Close</a>
-</div>
-</div
+<script type="text/javascript">
+
+</script>

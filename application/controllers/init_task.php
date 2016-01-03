@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Pre_check_task extends Mx_Controller {
+class Init_task extends Mx_Controller {
 
     /**
      * Index Page for this controller.
@@ -25,9 +25,9 @@ class Pre_check_task extends Mx_Controller {
     
     public function index(){
         $data =Array();
-        $data['detail_info']=$this->model->pre_check_task->get_info();
+        $data['detail_info']=$this->model->init_task->get_info();
         log_message("error", json_encode($data));
-        $this->page->renderInTheme('pre_check_task',array('class'=>'pre_check_task','data'=>$data),'default');
+        $this->page->renderInTheme('init_task',array('class'=>'init_task','data'=>$data),'default');
         }
     /***/
     

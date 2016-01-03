@@ -19,3 +19,9 @@ function get_info_ajax()
 jQuery(document).ready(function(){
     get_info_ajax();
 });
+
+$(document).ready(function(){
+    $("#init_task_detail").click(function(){
+        $("#init_log_detail").show();
+    })
+})
